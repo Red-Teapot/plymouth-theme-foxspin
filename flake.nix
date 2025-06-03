@@ -12,7 +12,7 @@
     in {
       defaultPackage.${system} = pkgs.stdenv.mkDerivation {
         pname = "plymouth-theme-foxspin";
-        version = "0.3.0";
+        version = "0.4.0";
         src = ./foxspin;
         dontBuild = true;
         installPhase = /* bash */ ''
